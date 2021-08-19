@@ -1,0 +1,35 @@
+.header {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+.main {
+    background-color: aqua;
+}
+
+/*
+#statement {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+*/
+
+.nav-link {
+    height: 100%;
+    color: white !important;
+}
+
+.nav-link:hover {
+    background-color: aqua;
+    color: black !important;
+}
+
+@media (min-width: 768px) {
+    .nav-item {
+        width: 20%;
+    }
+}
