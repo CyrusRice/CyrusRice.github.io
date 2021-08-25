@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Contact</title>
+    <script defer src="events.js"></script>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -24,7 +25,7 @@
               <a class="nav-link" href='about.html'>About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href='work.html'>Work Experience Summary</a>
+              <a class="nav-link" href='resume.html'>Resume</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href='projects.html'>Projects</a>
@@ -36,9 +37,36 @@
         </nav>
       </div>
     </div>
-    <p>
-        Hi my name is Cyrus Rice. This is my professional website highlighting my work experience and education as a software developer. To learn more about me and my work
-        use the navigation bar above.
-    </p>
+    <div class="main">
+      <form class="bg-light border rounded mx-auto my-4">
+        <div class="container">
+          <h1 class="mt-3">CONTACT FORM</h1>
+          <div class="row mb-3">
+            <div class="col-12">
+              <label for="email">Email:</label>
+            </div>
+            <div class="col-12">
+              <input type="email" class="form-control" id="email">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-12">
+              <label for="message">Message:</label>
+            </div>
+            <div class="col-12">
+              <textarea class="form-control" rows="5" id="message"></textarea>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-6">
+              <input type="submit" class="btn btn-primary w-100" value="Submit">
+            </div>
+            <div class="col-6">
+              <input type="reset" class="btn btn-secondary w-100" value="Reset">
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
   </body>
 </html>

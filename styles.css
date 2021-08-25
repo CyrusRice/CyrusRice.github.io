@@ -1,3 +1,7 @@
+html, body, .main {
+    height: 100%;
+}
+
 .header {
     text-align: center;
     background-color: blue;
@@ -6,17 +10,30 @@
 
 .main {
     background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/*
-#statement {
-    position: absolute;
-    top: 50%;
-    text-align: center;
-    margin: 20px;
-    font-weight: bold;
+.content {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    height: 80%;
+    width: 80%;
+    flex-wrap: wrap;
 }
-*/
+
+.resume {
+    overflow: scroll;
+}
+
+.section {
+    text-align: center;
+    width: 100%;
+}
+
+
 
 .nav-link {
     height: 100%;
@@ -32,4 +49,9 @@
     .nav-item {
         width: 20%;
     }
+
+    #intro {
+        width: 50%;
+    }
+
 }
