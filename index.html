@@ -13,31 +13,17 @@
   </head>
   <body>
     <div class="header">
-      <h1>Cyrus Rice</h1>
-      <div class="d-flex justify-content-around">
-        <nav class="navbar navbar-expand-md w-100">
-          <ul class="navbar-nav w-100">
-            <li class="nav-item">
-              <a class="nav-link" href='index.html'>Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href='about.html'>About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href='resume.html'>Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href='projects.html'>Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href='contact.html'>Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      {% include nav.html %}
     </div>
     <div class="main">
-      <img class="pic m-2" src="lake.jpg" alt="Picture of Lake">
+      <div class="content">
+        <p class="m-2 bg-white" id="intro">
+          Hi I'm Cyrus. I'm a software engineer who has worked at companies such as Intel and Amazon. I've used a wide
+          variety of languages, IDE's, and other technologies due to the variety of teams I've been on. I'm currently 
+          seeking a role in software engineering where I can learn and apply my current skills as well.
+        </p>
+        <img class="pic m-2 bg-white" src="me.jpg" alt="Picture of me">
+      </div>
     </div>
   </body>
 </html>
